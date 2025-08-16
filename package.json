@@ -1,0 +1,40 @@
+{
+  "name": "wedding-blog-ai",
+  "version": "2.0.0",
+  "description": "KI-gestützter Wedding Blog Generator mit Memberspot Integration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev",
+    "deploy": "vercel --prod",
+    "db:init": "node scripts/init-database.js",
+    "db:migrate": "node scripts/migrate-database.js",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0",
+    "vercel": "^32.0.0"
+  },
+  "keywords": [
+    "wedding",
+    "blog",
+    "ai",
+    "seo",
+    "claude",
+    "memberspot",
+    "cms"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/wedding-blog-ai.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
